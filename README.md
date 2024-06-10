@@ -3,8 +3,7 @@
 # SE-Assignment-5
 Installation and Navigation of Visual Studio Code (VS Code)
  Instructions:
-Answer the following questions based on your understanding of the installation and navigation of Visual Studio Code (VS Code). Provide detailed explanations and examples where appropriate.
-
+Answer the following questions based on your understanding of the installation and navigation of Visual Studio Code (VS Code). Provide detailed explanations and examples where appropriate. **ANSWERS AT THE END OF THE PAGE**
  Questions:
 
 1. Installation of VS Code:
