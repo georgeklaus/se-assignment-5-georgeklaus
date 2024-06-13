@@ -52,22 +52,22 @@ Questions:
 **Installation of VS Code on Linux Mint**
 
 Steps to Download and Install Visual Studio Code:
-1. I opened Terminal:
+1. I opened the Terminal:
 
 You can open the terminal by pressing Ctrl + Alt + T or by searching for "Terminal" in the application menu.
-2. Update the Package List (sudo apt-get update)
+2. I updated the Package List (sudo apt-get update)
 
-3. Install prerequisites: Ensure you have the necessary tools to add a new repository and install packages over HTTPS:
+3. I installed prerequisites: Ensure you have the necessary tools to add a new repository and install packages over HTTPS:
    (sudo apt install software-properties-common apt-transport-https wget)
-4. Add the Microsoft GPG Key: Download and add the Microsoft GPG key
+4. I added the Microsoft GPG Key: Download and add the Microsoft GPG key
    (wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -)
-5. Add the VS Code Repository to your system
+5. I also added the VS Code Repository to the system
    (sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main")
-6. Update the Package List Again 
+6. I updated the Package List Again 
    (sudo apt-get update)
-7. Install VS Code:
+7. I installed VS Code using: 
    (sudo apt install code)
-8. Launch VS Code: You can now launch Visual Studio Code from the application menu or by typing code in the terminal.
+8. I then launched VS Code by typing 'code' in the terminal.
 
 
 **First-time Setup**
@@ -76,16 +76,16 @@ Initial Configurations and Settings:
 
 Theme and Appearance:
 
-Open VS Code.
+I opened VS Code.
    Go to File > Preferences > Color Theme and select a preferred theme (e.g., Dark+, Light+).
 Font and Editor Settings:
 
    Go to File > Preferences > Settings or press Ctrl + ,.
-Adjust settings such as editor.fontSize and editor.lineHeight for optimal readability.
+Adjusted settings such as editor.fontSize and editor.lineHeight for optimal readability.
 Extensions:
 
-   Open the Extensions view by clicking the Extensions icon on the Activity Bar or pressing Ctrl + Shift + X.
-Install essential extensions such as:
+   I opened the Extensions view by clicking the Extensions icon on the Activity Bar.
+Installed essential extensions such as:
    1. Python (for Python development)
    2. ESLint (for JavaScript linting)
    3. Prettier - Code formatter (for code formatting)
@@ -116,7 +116,7 @@ Main Components of the VS Code User Interface:
 **Command Palette**
 
 What is the Command Palette?
-   -Command Palette: A powerful feature that allows you to access all VS Code commands.
+   -This is a powerful feature that allows you to access all VS Code commands.
    -Accessing the Command Palette: Press Ctrl + Shift + P (or F1).
 Common Tasks Using the Command Palette:
 1. Change Theme: Type Preferences: Color Theme and select a new theme.
@@ -129,17 +129,17 @@ Role of Extensions:
    Extensions: Enhance VS Code by adding new functionalities, language support, themes, and more.
 
 Finding, Installing, and Managing Extensions:
-1. Open Extensions View:
+1. Opened Extensions View:
 
-   Click on the Extensions icon in the Activity Bar or press Ctrl + Shift + X.
+   Clicked on the Extensions icon in the Activity Bar by pressing Ctrl + Shift + X.
 
 2. Search for Extensions:
 
-   Use the search bar to find specific extensions (e.g., "Python", "Prettier").
+   Used the search bar to find specific extensions (e.g., "Python", "Prettier").
 
 3. Install Extensions:
 
-   Click the "Install" button next to the desired extension.
+   Clicked the "Install" button next to the desired extension.
    Extensions can be enabled, disabled, or uninstalled from the Extensions view.
 
 *Examples of Essential Extensions for Web Development:*
@@ -164,9 +164,9 @@ How to Open and Use the Integrated Terminal:
 
 *Advantages of Using the Integrated Terminal:*
 
-1. Convenience: Run commands without leaving the code editor.
-2. Environment: Share the same environment and working directory as the editor.
-3. Efficiency: Quickly switch between coding and terminal tasks.
+1. Convenience: Runs commands without leaving the code editor.
+2. Environment: Shares the same environment and working directory as the editor.
+3. Efficiency: Quickly switches between coding and terminal tasks.
 
 *File and Folder Management*
 
@@ -191,28 +191,28 @@ Creating, Opening, and Managing Files and Folders:
 
 Finding and Customizing Settings:
 
-1. Open Settings:
+1. I opened Settings:
 
    Go to File > Preferences > Settings or press Ctrl + ,.
 2. Change Theme:
 
-   In the settings, search for "theme" and select your preferred color theme.
+   In the settings, searched for "theme" and selected preferred color theme.
 3. Adjust Font Size:
 
-   In the settings, search for editor.fontSize and set it to your preferred size.
+   In the settings, searched for editor.fontSize and set it to my preferred size.
 4. Modify Keybindings:
 
    Go to File > Preferences > Keyboard Shortcuts or press Ctrl + K, Ctrl + S.
-   Customize keybindings to suit your workflow.
+   Customize keybindings to suit my workflow.
 
 *Debugging in VS Code*
 
 Setting Up and Starting Debugging:
 
-1. Open a File to Debug:
+1. I opened a File to Debug:
 
 Open the code file you want to debug.
-2. Add Breakpoints:
+2. Added Breakpoints:
 
 Click in the gutter to the left of the line numbers to add breakpoints.
 3. Configure Debugging:
@@ -224,10 +224,10 @@ Press F5 or go to Run > Start Debugging.
 
 *Key Debugging Features:*
 
-1. Breakpoints: Pause execution at specific lines.
-2. Watch Variables: Monitor the values of variables.
-3. Call Stack: View the call stack to understand the sequence of function calls.
-4. Step Over/Into/Out: Control the execution flow line by line.
+1. Breakpoints: Pauses execution at specific lines.
+2. Watch Variables: Monitors the values of variables.
+3. Call Stack: Views the call stack to understand the sequence of function calls.
+4. Step Over/Into/Out: Controls the execution flow line by line.
 
 **Using Source Control**
 
@@ -235,7 +235,7 @@ Integrating Git with VS Code:
 
 1. Install Git:
 
-   Download and install Git from https://git-scm.com/download/linux.
+   I downloaded and installed Git from https://git-scm.com/download/linux.
 2. Initialize a Repository:
 
    Open your project folder in VS Code.
@@ -252,5 +252,11 @@ Integrating Git with VS Code:
 git push -u origin master)
    
    Alternatively, you can use the built-in Git integration to push changes by clicking the "..." icon in the Source Control view and selecting Push.
+
+**Refferences**
+
+https://code.visualstudio.com/docs/setup/linux
+
+https://code.visualstudio.com/docs/editor/extension-marketplace#:~:text=You%20can%20browse%20and%20install,Ctrl%2BShift%2BX).
 
 
