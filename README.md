@@ -161,10 +161,96 @@ How to Open and Use the Integrated Terminal:
 
    You can run shell commands directly within VS Code.
    The terminal supports multiple instances, allowing you to switch between them using the dropdown menu in the terminal panel.
+
 *Advantages of Using the Integrated Terminal:*
 
 1. Convenience: Run commands without leaving the code editor.
 2. Environment: Share the same environment and working directory as the editor.
 3. Efficiency: Quickly switch between coding and terminal tasks.
+
+*File and Folder Management*
+
+Creating, Opening, and Managing Files and Folders:
+
+1. Create a New File:
+
+   Go to File > New File or press Ctrl + N.
+2. Create a New Folder:
+
+   Right-click in the Explorer view (Side Bar) and select New Folder.
+3. Open a File or Folder:
+
+   Go to File > Open File or File > Open Folder or press Ctrl + O.
+4. Navigate Between Files:
+
+   Use the Explorer view to browse and open files.
+   Use Ctrl + P to quickly open files by typing their names.
+   Use Ctrl + Tab to switch between open files.
+
+*Settings and Preferences*
+
+Finding and Customizing Settings:
+
+1. Open Settings:
+
+   Go to File > Preferences > Settings or press Ctrl + ,.
+2. Change Theme:
+
+   In the settings, search for "theme" and select your preferred color theme.
+3. Adjust Font Size:
+
+   In the settings, search for editor.fontSize and set it to your preferred size.
+4. Modify Keybindings:
+
+   Go to File > Preferences > Keyboard Shortcuts or press Ctrl + K, Ctrl + S.
+   Customize keybindings to suit your workflow.
+
+*Debugging in VS Code*
+
+Setting Up and Starting Debugging:
+
+1. Open a File to Debug:
+
+Open the code file you want to debug.
+2. Add Breakpoints:
+
+Click in the gutter to the left of the line numbers to add breakpoints.
+3. Configure Debugging:
+
+Go to Run > Add Configuration and select the appropriate environment (e.g., Python, Node.js).
+4. Start Debugging:
+
+Press F5 or go to Run > Start Debugging.
+
+*Key Debugging Features:*
+
+1. Breakpoints: Pause execution at specific lines.
+2. Watch Variables: Monitor the values of variables.
+3. Call Stack: View the call stack to understand the sequence of function calls.
+4. Step Over/Into/Out: Control the execution flow line by line.
+
+**Using Source Control**
+
+Integrating Git with VS Code:
+
+1. Install Git:
+
+   Download and install Git from https://git-scm.com/download/linux.
+2. Initialize a Repository:
+
+   Open your project folder in VS Code.
+   Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl + Shift + G.
+   Click Initialize Repository.
+3. Make Commits:
+
+   Stage changes by clicking the + icon next to the file.
+   Enter a commit message and click the checkmark icon to commit the changes.
+4. Push Changes to GitHub:
+
+   Link your local repository to a remote repository on GitHub.
+   Use the terminal to run:  (git remote add origin https://github.com/yourusername/your-repo.git
+git push -u origin master)
+   
+   Alternatively, you can use the built-in Git integration to push changes by clicking the "..." icon in the Source Control view and selecting Push.
 
 
